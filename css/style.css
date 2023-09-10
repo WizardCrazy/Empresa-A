@@ -1,5 +1,20 @@
 body {
-    background-color: greenyellow;
+    background-color: rgb(189, 74, 116);
     font-weight: bold;
-    color: #000;
+    .Main {
+        background-color: rgb(68, 2, 32);
+        height: max-content;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+}
+.Cuadro_01 {
+    .btn_01{
+        color: red;
+        align-items: center;
+    }
+    .Titulo_01{
+        color: blueviolet;
+    }
+    background-color: yellow;
 }
