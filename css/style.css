@@ -1,20 +1,31 @@
 body {
     background-color: rgb(189, 74, 116);
     font-weight: bold;
-    .Main {
-        background-color: rgb(68, 2, 32);
-        height: max-content;
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
+
+header {
+    text-align: center;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
 .Cuadro_01 {
-    .btn_01{
-        color: red;
-        align-items: center;
-    }
-    .Titulo_01{
-        color: blueviolet;
-    }
+    padding: 5px;
     background-color: yellow;
+}
+
+.btn_01{
+    color: rgb(13, 0, 255);
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.Titulo_01{
+    color: blueviolet;
 }
